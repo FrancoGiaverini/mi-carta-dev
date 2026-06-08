@@ -108,5 +108,30 @@ $(document).ready(function () {
         );
 
     });
+    $("#btn-modo").click(function () {
+
+    $("body").toggleClass(
+        "modo-noche"
+    );
+
+    if (
+        $("body").hasClass(
+            "modo-noche"
+        )
+    ) {
+
+        $(this).text(
+            "Modo día"
+        );
+
+    } else {
+
+        $(this).text(
+            "Modo noche"
+        );
+
+    }
+
+});
 
 });

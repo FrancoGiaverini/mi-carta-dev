@@ -113,3 +113,29 @@ header {
     margin-top: 10px;
     font-weight: bold;
 }
+
+#btn-modo {
+
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.modo-noche {
+
+    background-color: #000;
+}
+
+.modo-noche .carta {
+
+    background: linear-gradient(
+        135deg,
+        #111,
+        #333
+    );
+    color: white;
+}
