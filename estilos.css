@@ -160,3 +160,28 @@ header {
     border-radius: 10px;
 
 }
+
+#btn-poder {
+
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+#poder-secreto {
+
+    margin-top: 15px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.brillo {
+
+    box-shadow: 0 0 30px gold;
+
+}
