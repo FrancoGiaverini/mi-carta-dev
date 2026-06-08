@@ -133,5 +133,27 @@ $(document).ready(function () {
     }
 
 });
+$("#btn-reverso").click(function () {
+
+    $("#reverso").slideToggle();
+
+    if (
+        $(this).text() ===
+        "Ver reverso"
+    ) {
+
+        $(this).text(
+            "Ocultar reverso"
+        );
+
+    } else {
+
+        $(this).text(
+            "Ver reverso"
+        );
+
+    }
+
+});
 
 });
